@@ -1,0 +1,287 @@
+.basket__figure{
+    text-align: center;
+    width: 14px;
+    height: 14px;
+    background: #E88EFF;
+    border-radius: 50%;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 111.5%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #F5FFD7;
+    position: absolute;
+    top: -7px;
+    left: 40px;
+}
+
+.header__purchase{
+    position: relative;
+}
+
+/********/
+.purchase {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 420px;
+    margin:0 -10px 100px -10px;
+}
+
+.sale__carousel_purchase{
+    display: none;
+}
+
+.purchase__body {
+    flex: 0 0 301px;
+    padding: 0 20px;
+}
+
+.purchase__title {
+    margin-bottom: 50px;
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.purchase__subtitle {
+    margin-bottom: 30px;
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+}
+
+.purchase__size {
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.purchase__size_item {
+    font-family: 'STRRETCH SANS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.purchase__size_item:hover{
+    transition: all 0.3s ease 0s;
+    transform: scale(1.03);
+}
+
+
+.purchase__size_item-bold {
+    color: #000000;
+}
+
+.purchase__color {
+    margin-bottom: 30px;
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+}
+
+.purchase__color_choice{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.purchase__color_choice a:hover {
+    transition: all 0.3s ease 0s;
+    transform: scale(1.16);
+}
+
+.purchase__color_item-1{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #D4B299;
+    position: relative;
+}
+
+.purchase__color_item-1:before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+
+.purchase__color_item-2{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #D2C2DA;
+}
+
+.purchase__color_item-3{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: #EEEBD1;}
+
+.purchase__price {
+    margin-bottom: 50px;
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.purchase__quantity {
+    padding: 19px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.purchase_minus img {
+    position: relative;
+    top: 7px;
+}
+
+.purchase_plus:hover{
+    transition: all 0.3s ease 0s;
+    transform: scale(1.18);
+}
+.purchase_minus:hover{
+    transition: all 0.3s ease 0s;
+    transform: scale(1.23);
+}
+
+.purchase__quantity_item {
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+}
+
+.purchase_plus img{
+    position: relative;
+    top: 1px;
+}
+
+.choose {
+    padding: 21px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
+}
+
+.choose__text_red {
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    color: #C10909;
+}
+
+.choose__text_red:hover{
+    transition: all 0.1s ease 0s;
+    transform: scale(1.04);
+}
+
+.choose__brtop{
+    border-top: 1px solid #000000;
+
+}
+
+.choose__arrow:hover {
+    transition: all 0.1s ease 0s;
+    transform: scale(1.11);
+}
+
+.purchase__description {
+    margin: 50px 0;
+}
+
+.purchase__description_title {
+    margin-bottom: 30px;
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+}
+
+.purchase__description_text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 127%;
+    letter-spacing: 0.05em;
+    color: black
+}
+
+.choose__text {
+    font-family: 'STRRETCH SANS';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 145%;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+.choose__text:hover{
+    transition: all 0.1s ease 0s;
+    transform: scale(1.04);
+}
+
+.purchase__photos {
+    flex: 0 1 421px;
+    padding: 0 20px;
+}
+
+.purchase__image_mb{
+    margin-bottom: 30px;
+}
+
+.purchase__image img{
+    max-width: 100%;
+}
+
+.purchase__image_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*****************************/
+
+.label_mb{
+    margin-bottom: 133px;
+}
+
+.purchase__collection{
+    margin-bottom: 268px;
+}
+.purchase__row_mb{
+    margin-bottom: 100px;
+}
+.purchase__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

@@ -1,0 +1,17 @@
+.slider__line img {
+  width: 780px;
+  height: 511px;
+  object-fit: cover;
+}
+
+.slider {
+  width: 780px;
+  overflow: hidden;
+}
+
+.slider__line {
+  position: relative;
+  left: 0;
+  transition: left 0.3s ease;
+  display: flex;
+}
